@@ -32,8 +32,13 @@ app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
 // app.use('/api/auth', authRoutes);
 // app.use('/api/product', productRoutes);
 app.get('/', (req, res) => {
+<<<<<<< HEAD
 
     res.status(201).json('OK')
+=======
+    
+    res.send('Say Hello');
+>>>>>>> 2209dccb0ab48f82f88257d959927bd743fc7052
 })
 
 app.get('/', (req, res) => {

@@ -33,7 +33,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/product', productRoutes);
 app.get('/', (req, res) => {
     
-    res.status(201).json('OK')
+    res.send('Hello');
 })
 
 app.get('/', (req, res) => {
